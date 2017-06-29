@@ -45,11 +45,7 @@ Enjoy!
     elements: []
   };
 
-  if($.browser.msie && $.browser.version < 7){
-    $.support.selectOpacity = false;
-  }else{
-    $.support.selectOpacity = true;
-  }
+ 
 
   $.fn.uniform = function(options) {
 
